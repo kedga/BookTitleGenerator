@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GetRandomFromList">
+      <HintPath>..\..\GetRandomFromList\GetRandomFromList\bin\Debug\net8.0\GetRandomFromList.dll</HintPath>
+    </Reference>
+    <Reference Include="RandomDateTime">
+      <HintPath>..\..\RandomDateTime\RandomDateTime\bin\Debug\net8.0\RandomDateTime.dll</HintPath>
+    </Reference>
+    <Reference Include="SentenceBuilder">
+      <HintPath>..\..\SentenceBuilder\SentenceBuilder\bin\Debug\net8.0\SentenceBuilder.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
